@@ -91,3 +91,17 @@ For each model, SHAP value visualizations are provided to support interpretabili
 │ │ │ ├── ...  
 ├── Noemi_Cicala_thesis.pdf  
 └── README.md  
+
+## Requirements
+```
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install seaborn
+pip install tensorflow
+pip install shap
+pip install imbalanced-learn
+pip install scikit-learn
+pip install xgboost
+pip install lightgbm
+```
