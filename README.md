@@ -23,4 +23,10 @@ a more personalized and sustainable approach to lung cancer immunotherapy
 
 ## Thesis Context
 This repository contains the code and experiments developed for my Master's thesis in Data Science, focused on applying machine learning and deep learning techniques to predict lung cancer patients' responses to immunotherapy.  
-The work was conducted in collaboration with Hospital Clínic de Barcelona, within a multidisciplinary research environment combining clinical data analysis and artificial intelligence.
+The work was conducted in collaboration with *Hospital Clínic de Barcelona* within a multidisciplinary research environment combining clinical data analysis and artificial intelligence.
+
+## Datasets
+The code in this repository reflects the original analysis pipeline used during the thesis, including preprocessing, feature engineering, and model training steps.\\
+For confidentiality reasons, the clinical datasets themselves **are not included**, as they belong to *Hospital Clínic de Barcelona* and contain sensitive patient information.\\
+Nonetheless, all variable names, preprocessing routines, and modeling workflows are left exactly as implemented in the original project, so that readers can fully understand and reproduce the structure of the analysis using their own data.\\
+Researchers with legitimate scientific interest and institutional authorization may request access to the original datasets.\\
