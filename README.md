@@ -105,3 +105,5 @@ pip install scikit-learn
 pip install xgboost
 pip install lightgbm
 ```
+These dependencies have been tested with **Python 3.11**.\\
+Compatibility with later versions (e.g., 3.12+) may vary depending on library updates.
