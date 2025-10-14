@@ -30,3 +30,14 @@ The code in this repository reflects the original analysis pipeline used during 
 For confidentiality reasons, the clinical datasets themselves **are not included**, as they belong to *Hospital Clínic de Barcelona* and contain sensitive patient information.  
 Nonetheless, all variable names, preprocessing routines, and modeling workflows are left exactly as implemented in the original project, so that readers can fully understand and reproduce the structure of the analysis using their own data.  
 Researchers with legitimate scientific interest and institutional authorization may request access to the original datasets.  
+
+## Repository Description
+This repository contains the implementation notebooks developed for my Master’s Thesis.  
+The project investigates multiple clinically relevant endpoints, **Overall Survival (OS)**, **Progression-Free Survival (PFS)**, **Time to Progression (TTP)**, **Best Overall Response (BOR)** and **Responder Quality Groups**, using a combination of classical machine learning algorithms, conventional neural networks, and advanced deep learning architectures (including attention mechanisms).  
+Each folder under `notebooks/` corresponds to a target endpoint and contains four implementation notebooks:  
+1. `classic_ml/` — traditional machine learning models (e.g., SVM, Random Forest, XGBoost)
+2. `conventional_nn/` — fully-connected neural networks  
+3. `advanced_nn/` — DL architectures   
+4. `attention_nn/` — attention-based neural networks  
+Preprocessing (mainly scaling) is applied when required by the model type (for example tree-based methods use raw feature inputs).\\
+For each model, SHAP value visualizations are provided to support interpretability.
