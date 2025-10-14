@@ -41,3 +41,53 @@ Each folder under `notebooks/` corresponds to a target endpoint and contains fou
 4. `attention_nn/` — attention-based neural networks  
 Preprocessing (mainly scaling) is applied when required by the model type (for example tree-based methods use raw feature inputs).\\
 For each model, SHAP value visualizations are provided to support interpretability.
+
+### Repository Structure
+├── notebooks/
+│ ├── OS/
+│ │ ├── Status/
+│ │ │ ├── classic_ml/
+│ │ │ ├── conventional_nn/
+│ │ │ ├── advanced_nn/
+│ │ │ ├── attention_nn/
+│ │ │ └── evaluation/
+│ │ ├── Duration/
+│ │ │ ├── ...
+│ │
+│ ├── PFS/
+│ │ ├── classic_ml/
+│ │ ├── conventional_nn/
+│ │ ├── advanced_nn/
+│ │ ├── attention_nn/
+│ │ └── evaluation/
+│ │
+│ ├── TTP/
+│ │ ├── classic_ml/
+│ │ ├── conventional_nn/
+│ │ ├── advanced_nn/
+│ │ ├── attention_nn/
+│ │ └── evaluation/
+│ │
+│ ├── BOR/
+│ │ ├── Original/
+│ │ │ ├── classic_ml/
+│ │ │ ├── conventional_nn/
+│ │ │ ├── advanced_nn/
+│ │ │ ├── attention_nn/
+│ │ │ └── evaluation/
+│ │ ├── no_CR/
+│ │ │ ├── ...
+│ │ ├── CR_into_PR/
+│ │ │ ├── ...
+│ │
+│ ├── RESP_GROUPS/
+│ │ ├── from_TTP/
+│ │ │ ├── classic_ml/
+│ │ │ ├── conventional_nn/
+│ │ │ ├── advanced_nn/
+│ │ │ ├── attention_nn/
+│ │ │ └── evaluation/
+│ │ ├── from_logTTP/
+│ │ │ ├── ...
+├── Noemi_Cicala_thesis.pdf
+└── README.md
