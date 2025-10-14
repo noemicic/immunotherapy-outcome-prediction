@@ -7,14 +7,14 @@ of patients. However, accurately predicting treatment response remains a major c
 challenge due to the complexity and heterogeneity of patient profiles.
 In this thesis, we explore an AI-driven predictive framework for modeling and interpreting patient responses to immunotherapy, based on a retrospective cohort including
 demographic, clinical, and molecular features. Multiple clinically relevant endpoints are
-investigated, encompassing both survival and response indicators: Overall Survival
-(OS) status and duration, Progression-Free Survival (PFS), Time to Progression
-(TTP), Best Overall Response (BOR) and its modified variants, as well as Responder Quality Groups derived from both raw and log-transformed TTP.
-Three main modeling paradigms, classical machine learning, conventional neural
-networks, and advanced neural architectures, are systematically compared. Through
+investigated, encompassing both survival and response indicators: **Overall Survival
+(OS)** status and duration, **Progression-Free Survival (PFS)**, **Time to Progression
+(TTP)**, **Best Overall Response (BOR)** and its modified variants, as well as **Responder Quality Groups** derived from both raw and log-transformed TTP.
+Three main modeling paradigms, *classical machine learning*, *conventional neural
+networks*, and *advanced neural architectures*, are systematically compared. Through
 targeted hyperparameter tuning and regularization, we mitigate overfitting and show that
 model complexity should be adapted to each endpoint rather than uniformly increased.
-Model interpretability is ensured through SHAP-based feature attributions, which
+Model interpretability is ensured through *SHAP-based feature* attributions, which
 identify biologically plausible predictors of treatment outcome. Finally, ethical and sustainability aspects are discussed, highlighting the social and economic value of AI-assisted
 decision support in clinical oncology, despite the environmental costs of model training.
 Overall, this work demonstrates that interpretable and endpoint-specific AI models can
@@ -26,7 +26,7 @@ This repository contains the code and experiments developed for my Master's thes
 The work was conducted in collaboration with *Hospital Clínic de Barcelona* within a multidisciplinary research environment combining clinical data analysis and artificial intelligence.
 
 ## Datasets
-The code in this repository reflects the original analysis pipeline used during the thesis, including preprocessing, feature engineering, and model training steps.\\
-For confidentiality reasons, the clinical datasets themselves **are not included**, as they belong to *Hospital Clínic de Barcelona* and contain sensitive patient information.\\
-Nonetheless, all variable names, preprocessing routines, and modeling workflows are left exactly as implemented in the original project, so that readers can fully understand and reproduce the structure of the analysis using their own data.\\
-Researchers with legitimate scientific interest and institutional authorization may request access to the original datasets.\\
+The code in this repository reflects the original analysis pipeline used during the thesis, including preprocessing, feature engineering, and model training steps.  
+For confidentiality reasons, the clinical datasets themselves **are not included**, as they belong to *Hospital Clínic de Barcelona* and contain sensitive patient information.  
+Nonetheless, all variable names, preprocessing routines, and modeling workflows are left exactly as implemented in the original project, so that readers can fully understand and reproduce the structure of the analysis using their own data.  
+Researchers with legitimate scientific interest and institutional authorization may request access to the original datasets.  
