@@ -20,3 +20,7 @@ decision support in clinical oncology, despite the environmental costs of model 
 Overall, this work demonstrates that interpretable and endpoint-specific AI models can
 effectively complement clinical expertise, improving patient stratification and promoting
 a more personalized and sustainable approach to lung cancer immunotherapy
+
+## Thesis Context
+This repository contains the code and experiments developed for my Master's thesis in Data Science, focused on applying machine learning and deep learning techniques to predict lung cancer patients' responses to immunotherapy.  
+The work was conducted in collaboration with Hospital Clínic de Barcelona, within a multidisciplinary research environment combining clinical data analysis and artificial intelligence.
