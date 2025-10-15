@@ -44,51 +44,36 @@ For each model, SHAP value visualizations are provided to support interpretabili
 
 ### Repository Structure
 ├── notebooks/  
-│ ├── OS/  
-│ │ ├── Status/  
+│ ├── OS_status/  
 │ │ │ ├── classic_ml/  
 │ │ │ ├── conventional_nn/  
 │ │ │ ├── advanced_nn/  
 │ │ │ ├── attention_nn/  
-│ │ │ └── evaluation/  
-│ │ ├── Duration/  
+│ │   
+│ ├── OS_duration/   
 │ │ │ ├── ...  
 │ │    
-│ ├── PFS/   
-│ │ ├── classic_ml/  
-│ │ ├── conventional_nn/  
-│ │ ├── advanced_nn/  
-│ │ ├── attention_nn/  
-│ │ └── evaluation/  
+│ ├── PFS/  
+│ │ │ ├── ...  
 │ │  
 │ ├── TTP/  
-│ │ ├── classic_ml/  
-│ │ ├── conventional_nn/  
-│ │ ├── advanced_nn/  
-│ │ ├── attention_nn/  
-│ │ └── evaluation/  
-│ │  
-│ ├── BOR/  
-│ │ ├── Original/  
-│ │ │ ├── classic_ml/  
-│ │ │ ├── conventional_nn/  
-│ │ │ ├── advanced_nn/  
-│ │ │ ├── attention_nn/  
-│ │ │ └── evaluation/  
-│ │ ├── no_CR/  
-│ │ │ ├── ...  
-│ │ ├── CR_into_PR/  
 │ │ │ ├── ...  
 │ │  
-│ ├── RESP_GROUPS/  
-│ │ ├── from_TTP/  
-│ │ │ ├── classic_ml/  
-│ │ │ ├── conventional_nn/  
-│ │ │ ├── advanced_nn/  
-│ │ │ ├── attention_nn/  
-│ │ │ └── evaluation/  
-│ │ ├── from_logTTP/  
+│ ├── BOR_original/  
 │ │ │ ├── ...  
+│ │   
+│ │ ├── BOR_no_CR/  
+│ │ │ ├── ...  
+│ │   
+│ │ ├── BOR_CR_into_PR/  
+│ │ │ ├── ...  
+│ │  
+│ ├── RespGroup_from_TTP/  
+│ │ │ ├── ...  
+│ │   
+│ │ ├── RespGroup_from_logTTP/  
+│ │ │ ├── ...  
+│ │   
 ├── Noemi_Cicala_thesis.pdf  
 └── README.md  
 
